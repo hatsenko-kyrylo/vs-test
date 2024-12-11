@@ -1,0 +1,19 @@
+@use '../../styles/variables' as *;
+
+.source-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s;
+    width: fit-content;
+    font-size: 1.5rem;
+    &:hover {
+        color: $link-hover-color;
+    }
+    img {
+        width: 30px;
+    }
+}
+.not-available {
+    font-size: 1.5rem;
+}

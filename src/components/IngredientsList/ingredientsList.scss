@@ -1,0 +1,11 @@
+.meal__ingredients {
+    padding: 40px 0;
+    &-item {
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+        display: flex;
+        &-measure {
+            font-weight: 500;
+        }
+    }
+}
